@@ -95,7 +95,7 @@ int main() {
 			break;
 		}
 
-		if (nullptr == mysql_real_connect(mysql, "localhost", "root", "193168", "blog", 3306, nullptr, 0)) {
+		if (nullptr == mysql_real_connect(mysql, "localhost", "whoknows", "idoesnottknow", "youguess", 3306, nullptr, 0)) {
 			std::cout << std::format("mysql_real_connect error: {}.\n", mysql_error(mysql));
 			break;
 		}
